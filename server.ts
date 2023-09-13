@@ -48,7 +48,7 @@ const start = async (): Promise<void> => {
   try {
     console.log(port, host);
     await server.listen({ host, port });
-    server.log.info(`Server is running on http://159.69.150.214:${port}`);
+    server.log.info(`Server is running on http://${host}:${port}`);
   } catch (error) {
     server.log.error(error);
     process.exit(1);
