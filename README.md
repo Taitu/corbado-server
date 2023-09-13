@@ -11,9 +11,6 @@ and set your credentials host, port, projectID (corbado project), API secret (co
 ## Build Setup
 
 ```bash
-# install dependencies
 $ yarn install
-
-# serve with hot reload at localhost:3000
 $ yarn start
 ```
